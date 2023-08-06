@@ -1,0 +1,25 @@
+{
+    "name": "@types/imagemin-svgo",
+    "version": "7.0.0",
+    "description": "TypeScript definitions for imagemin-svgo",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Romain Faust",
+            "url": "https://github.com/romain-faust",
+            "githubUsername": "romain-faust"
+        }
+    ],
+    "main": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/imagemin": "*",
+        "@types/svgo": "*"
+    },
+    "typesPublisherContentHash": "a70dead413572f969f2e464a136349a305c7ffe21b530dd760bd7f458812caaf",
+    "typeScriptVersion": "2.2"
+}

@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "lib": ["ESNext", "DOM"], 
+    "skipLibCheck": true,
+    "noEmit": true,
+    "types": [ "node"],
+    "paths": {
+      "@/*": ["src/*"]
+      // "@components/*": ["src/components/*"],
+      // "@views/*": ["src/views/*"]
+    },
+    "typeRoots": ["./node_modules/@types/"]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "./auto-imports.d.ts"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  "exclude": ["node_modules", "dist", "**/*.js"]
+  // "paths": {
+  //   "@/*": ["src/*"]
+  // }
+}
