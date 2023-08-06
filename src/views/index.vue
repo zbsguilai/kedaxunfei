@@ -6,9 +6,9 @@ import { Base64 } from "js-base64";
 import IatRecorder from "../until/iatRecorder"; // 科大讯飞
 let iatRecorder = new IatRecorder();
 
-const APPID = "19d5892f";
-const API_SECRET = "MTIxYTM4YWQ3MjcwYjVhOTgwOWI1M2Rk";
-const API_KEY = "fe3f8456836758ae5aacf331cf050cc6";
+const APPID = "";
+const API_SECRET = "";
+const API_KEY = "";
 
 /**
  * 获取websocket url
