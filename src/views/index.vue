@@ -86,21 +86,21 @@ iatRecorder.onTextChange = function (text) {
     $("#result_output").text(text);
 };
 
-onMounted(() => {
-    $("#taste_button, .taste-button").on("click", () => {
-        // const distinguish = () => {
-        // 处理点击事件的代码
-        console.log(document.querySelector("#taste_button"), "11");
-        console.log("aaa");
-        if (iatRecorder.status === "ing") {
-            iatRecorder.stop();
-        } else {
-            iatRecorder.start();
-        }
-    });
-// setTimeout(()=>{distinguish()},1000)
+// onMounted(() => {
+//     $("#taste_button, .taste-button").on("click", () => {
+//         // const distinguish = () => {
+//         // 处理点击事件的代码
+//         console.log(document.querySelector("#taste_button"), "11");
+//         console.log("aaa");
+//         if (iatRecorder.status === "ing") {
+//             iatRecorder.stop();
+//         } else {
+//             iatRecorder.start();
+//         }
+//     });
+// // setTimeout(()=>{distinguish()},1000)
 
-});
+// });
 // //或者用上面的方法
 const distinguish = () => {
     // 处理点击事件的代码

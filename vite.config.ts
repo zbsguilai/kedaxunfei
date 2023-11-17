@@ -11,7 +11,7 @@ export default defineConfig({
     vue(),
     AutoImport({
       imports: ['vue', 'vue-router']//自动导入vue和vue-router相关函数
-    }),
+    }), 
     inject({
       $: "jquery",  // 这里会自动载入 node_modules 中的 jquery
       jQuery: "jquery",
@@ -34,3 +34,4 @@ export default defineConfig({
     hmr: true,  // 开启热更新
   }
 })
+
