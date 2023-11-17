@@ -1954,7 +1954,7 @@ esbuild-linux-32@0.14.54:
   resolved "https://registry.npmmirror.com/esbuild-linux-32/-/esbuild-linux-32-0.14.54.tgz#e2a8c4a8efdc355405325033fcebeb941f781fe5"
   integrity sha512-1ZuY+JDI//WmklKlBgJnglpUL1owm2OX+8E1syCD6UAxcMM/XoWd76OHSjl/0MR0LisSAXDqgjT3uJqT67O3qw==
 
-esbuild-linux-64@0.14.54:
+esbuild-linux-64@0.13.4:
   version "0.14.54"
   resolved "https://registry.npmmirror.com/esbuild-linux-64/-/esbuild-linux-64-0.14.54.tgz#de5fdba1c95666cf72369f52b40b03be71226652"
   integrity sha512-EgjAgH5HwTbtNsTqQOXWApBaPVdDn7XcK+/PtJwZLT1UmpLoznPd8c5CxqsH2dQK3j05YsB3L17T8vE7cp4cCg==
@@ -2032,7 +2032,7 @@ esbuild@^0.14.14:
     esbuild-freebsd-64 "0.14.54"
     esbuild-freebsd-arm64 "0.14.54"
     esbuild-linux-32 "0.14.54"
-    esbuild-linux-64 "0.14.54"
+    esbuild-linux-64 "0.13.4"
     esbuild-linux-arm "0.14.54"
     esbuild-linux-arm64 "0.14.54"
     esbuild-linux-mips64le "0.14.54"
