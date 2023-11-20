@@ -1,4 +1,4 @@
-本项目来源于[《腾讯云 Cloud Studio 实战训练营》](https://marketing.csdn.net/p/06a21ca7f4a1843512fa8f8c40a16635)的参赛作品，该作品在腾讯云 [Cloud Studio](https://www.cloudstudio.net/?utm=csdn) 中运行无误。
+
 
 # 注意：APPID、API_SECRET、API_KEY 需要自己的注册科大讯飞去获取
 
