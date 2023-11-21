@@ -1,5 +1,3 @@
-
-
 # 注意：APPID、API_SECRET、API_KEY 需要自己的注册科大讯飞去获取
 
 ## 安装依赖
@@ -15,5 +13,5 @@ node@6.14.17
 文章记录了Vue3项目在集成科大讯飞的踩坑点
 https://blog.csdn.net/qq_38951259/article/details/128377289
 ## 咨询
-如果代码有问题可以在issues提问。。
+如果代码有问题可以在issues提问
 
