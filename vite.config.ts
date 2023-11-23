@@ -31,7 +31,7 @@ export default defineConfig({
     host: true,
     open: true,
     proxy: {},
-    hmr: true,  // 开启热更新
+    hmr: true // 开启热更新
   }
 })
 
